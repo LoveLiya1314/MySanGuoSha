@@ -1,0 +1,35 @@
+.seatsLayout {
+    display: flex;
+    flex: auto;
+    padding-left: 24px;
+}
+
+.rightSeats,
+.leftSeats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 200px;
+    align-items: center;
+}
+
+.central {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.topSeats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.gamePad {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+.cardLine {
+    margin: 16px 8px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.selectorCard {
+    margin: 0px 8px;
+}
+
+.selectorCard.selected {
+    filter: brightness(0.5);
+}
+
+.selecterCardsItem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.listName {
+    margin-right: 16px;
+    text-orientation: upright;
+    width: 16px;
+    display: flex;
+    align-items: center;
+}
+.cardList {
+    display: flex;
+}

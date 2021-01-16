@@ -1,0 +1,20 @@
+@value dyingColor: #ff5613;
+@value dangerColor: #e48205;
+@value healthyColor: #1f9824;
+
+.magatama {
+    display: flex;
+    height: 18px;
+    width: 18px;
+}
+
+.regular {
+    height: 18px;
+    width: 18px;
+    margin: 4px 2px;
+}
+.small {
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+}

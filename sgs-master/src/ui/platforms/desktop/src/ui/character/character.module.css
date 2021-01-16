@@ -1,0 +1,45 @@
+@value SanguoshaFont from '../metrics/metrics.css';
+
+.characterCard {
+    min-width: 160px;
+    height: 200px;
+    font-family: SanguoshaFont;
+    font-size: 24px;
+    position: relative;
+}
+.characterCard.small {
+    min-width: 120px;
+    height: 150px;
+}
+
+.selected {
+    filter: brightness(0.5);
+}
+
+.characterImage {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.characterHp {
+    top: 16px;
+    left: 48px;
+    display: flex;
+}
+.characterHp.small {
+    left: 32px;
+    max-width: 80px;
+    flex-wrap: wrap;
+}
+
+.characterHp > * {
+    margin-left: -2px;
+}
+
+.characterTag,
+.characterHp {
+    position: absolute;
+    z-index: 2;
+}

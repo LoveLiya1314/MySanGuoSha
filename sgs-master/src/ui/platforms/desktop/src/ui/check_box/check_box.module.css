@@ -1,0 +1,29 @@
+@value gridLine from '../metrics/metrics.css';
+
+.checkbox {
+    display: flex;
+}
+
+.input {
+    margin-right: gridLine;
+}
+
+.label {
+    color: white;
+    font-size: 14px;
+}
+
+.checkboxGroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.regularCheckBox {
+    width: 25%;
+}
+.squashCheckBox {
+    width: 20%;
+}
+.smashCheckBox {
+    width: 16.67%;
+}
